@@ -1,0 +1,25 @@
+This function is a standalone program and doesn't require any extra-packages installation. 
+
+Although it depends on some basic python libraries inculding
+a) Matplotlib b) Numpy c) Scipy
+
+This software is tested on both python 2.7 and 3.6. 
+
+In case, you don't have above libraries, please install as follows: 
+--------------
+Linux users:
+--------------
+python -m pip install numpy scipy matplotlib 
+or 
+python3 -m pip install numpy scipy matplotlib      (if you want to use python3)  
+------------
+Mac-Users
+------------
+brew tap homebrew/science && brew install python numpy scipy matplotlib
+or 
+brew tap homebrew/science && brew install python3 numpy scipy matplotlib
+
+If you don't have brew, please copy paste the follwoing command in terminal:
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+
