@@ -1,6 +1,6 @@
 README
 %-------------------------------------------------------
-% cgDNA, version 2 in python (2018)
+% cgNA+ python (2022)
 %-------------------------------------------------------    
 
 cgNA+ is a software (Matlab or Octave or Python) package for
