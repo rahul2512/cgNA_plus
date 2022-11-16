@@ -22,22 +22,33 @@ A user-friendly web version of this program is available at
 
 cgDNAweb.epfl.ch
 
+If you use this website in relation to any publication please cite:
 
- 
+cgNA+web: A web based visual interface to the cgNA+ sequence dependent statistical mechanics model of double-stranded nucleic acids
+R. Sharma, A. S. Patelli, L. De Bruin, and J.H. Maddocks
+Submitted
+The cgNA+web site is an evolution from a pre-cursor site (still available at https://cgdnaweb.epfl.ch/view2) and is described in:
+
+cgDNAweb: a web interface to the cgDNA sequence-dependent coarse-grain model of double-stranded DNA.
+L. De Bruin, J.H. Maddocks
+Nucleic Acids Research 46, issue W1 (2018), p. W5-W10
+DOI:10.1093/nar/gky351
+
+The current updated cgNA+web version is an interface to the enhanced coarse-grain model cgNA+ of sequence-dependent statistical mechanics of double-stranded nucleic acids. cgNA+ includes parameter sets for dsDNA in an epigenetic sequence alphabet, dsRNA, and DNA:RNA hybrid as described in detail in
+
+cgNA+: A sequence-dependent coarse-grain model of double-stranded nucleic acids.
+R. Sharma, EPFL Thesis #9792, Under the supervision of J. H. Maddocks
+Download the PDF here.
+The extended cgNA+ parameter sets are built on the cgDNA+ model, which itself extends the original cgDNA model by the inclusion of an explicit description of phosphate groups. The cite for the cgDNA+ model itself is:
+
+A sequence-dependent coarse-grain model of B-DNA with explicit description of bases and phosphate groups parametrised from large scale Molecular Dynamics simulations.
+A. S. Patelli, EPFL Thesis #9522, Under the supervision of J. H. Maddocks
+Download the PDF here.
+More generally the cgDNA family of models has its own web page, which includes citations to all other related codes and articles.
 
 More information is available at
 
 http://lcvmwww.epfl.ch/cgDNA
-
-and in:
-
-D. Petkeviciute, M. Pasi, O. Gonzalez and J.H. Maddocks. 
- cgDNA: a software package for the prediction of
- sequence-dependent coarse-grain free energies of B-form
- DNA. Submitted (2014). 
-
-If you find cgDNA useful, please cite the above
-publication.
 
 
 %-------------------------------------------------------
