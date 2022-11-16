@@ -1,7 +1,7 @@
 README
-%-------------------------------------------------------
-% cgNA+ python (2022)
-%-------------------------------------------------------    
+#-------------------------------------------------------
+# cgNA+ python (2022)
+#-------------------------------------------------------    
 
 cgNA+ is a software (Matlab or Octave or Python) package for
 predicting the ground-state conformation and stiffness
