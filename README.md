@@ -10,19 +10,17 @@ Free energy differences between two configurations of a
 molecule of dsNA in standard environmental conditions, can then be computed.
 
 The ground-state conformation is provided in the CURVES+
-definition of the dsNA structural coordinates (both a
+definition (for the base and similar coordinates for phosphates) 
+of the dsNA structural coordinates (both a
 non-dimensional version and the original unscaled version),
 and also as a PDB file of atomic coordinates. The PDB file
 can be used in the program 3DNA to obtain 3DNA structural
 coordinates if desired. The ground-state stiffness matrix
-is provided for non-dimensional version of the Curves+
-helical coordinates.
+is provided for non-dimensional version of the CURVES+ helical coordinates.
 
-A user-friendly web version of this program is available at
+A user-friendly web version of this program is available at cgDNAweb.epfl.ch
 
-cgDNAweb.epfl.ch
-
-If you use this website in relation to any publication please cite:
+If you use cgDNAweb.epfl.ch in relation to any publication please cite:
 
 cgNA+web: A web based visual interface to the cgNA+ sequence dependent statistical mechanics model of double-stranded nucleic acids
 R. Sharma, A. S. Patelli, L. De Bruin, and J.H. Maddocks
@@ -108,6 +106,9 @@ l) ideal_bases.txt      : The text file with the ideal coordinates (in base fram
 			  of this woring directory. 
 4. Examples		: This file contains two sample sequences and all the outputs. One can use this 
 			  example as a template for further use. 
+
+
+The python package is primarily developed by Rahul Sharma (rs25.iitr@gmail.com) with help from Alessandro patelli. 
 
 # cgNA_plus
 # Creating cgNA object
