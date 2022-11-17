@@ -6,6 +6,9 @@ Prmset_cgDNA+_CGF_10mus_int_12mus_ends.mat (Use this for DNA)
 --- used full covariance matrix not truncated
 --- Positive definite reconstruction for all sequences (upto 12 mers)
 
+Di_hmethyl_methylated-hemi_combine.mat 
+
+
 
 
 cgDNA+_Curves_BSTJ_10mus_FS.mat

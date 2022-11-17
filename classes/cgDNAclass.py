@@ -17,21 +17,17 @@ class cgDNA:
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ###########################################################################
     def __init__(self,sequence,ps='ps1'):
-        if ps == 'ps1':
+        if ps == 'dna_ps1':
             self.paramset = 'cgDNA+ps1.mat'
-        if ps == 'ps2_cur':
+        if ps == 'dna_ps2_cur':
             self.paramset = 'cgDNA+_Curves_BSTJ_10mus_FS.mat'
-        if ps == 'ps2_cgf':
-            self.paramset = 'Prmset_cgDNA+_CGF_10mus_int_12mus_ends.mat'
-        if ps == 'ps_rna':
+        if ps == 'dna_ps2':
+            self.paramset = 'Di_hmethyl_methylated-hemi_combine.mat'
+        if ps == 'rna_ps2':
             self.paramset = 'Prmset_cgRNA+_OL3_CGF_10mus_int_12mus_ends.mat'
-        if ps == 'ps_hyb':
+        if ps == 'drh_ps2':
             self.paramset = 'cgHYB+_CGF_OL3_BSC1_10mus_FS_GC_ends.mat'
-        if ps == 'ps_mdna':
-            self.paramset = 'Dimethylated-hemi.mat'
-        if ps == 'ps_hdna':
-            self.paramset = 'Dihmethylated-hemi.mat'
-        if ps == 'dna_mle':
+        if ps == 'dna_ps2_mle':
             self.paramset = 'cgDNA+_MLE_ends12mus_ends_CGF_BSC1.mat'
         self.seq = sequence
         self.nbp = len(sequence)

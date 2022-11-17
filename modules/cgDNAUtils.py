@@ -23,7 +23,7 @@ plt.rcParams['axes.facecolor'] = 'white'
 
 def constructSeqParms(sequence,ps_name):
 
-    ps = scipy.io.loadmat(path + '/Parametersets/' + ps_name)
+    ps = scipy.io.loadmat('../Parametersets/' + ps_name)
 
 	#### Following loop take every input sequence and construct shape and stiff matrix ###
     s_seq = seq_edit(sequence)

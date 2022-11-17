@@ -1,16 +1,16 @@
-README
+#README
 #-------------------------------------------------------
-# cgNA+ python (2022)
+# cgNA+ python (2022) --- developed at LCVMM, EPFL (https://lcvmwww.epfl.ch/)
 #-------------------------------------------------------    
 
 cgNA+ is a software (Matlab or Octave or Python) package for
 predicting the ground-state conformation and stiffness
-matrix of a molecule of double-stranded nucleic acids (dsNAs) of any given sequence.
+matrix for double-stranded nucleic acids (dsNAs) fragment of any given sequence.
 Free energy differences between two configurations of a
 molecule of dsNA in standard environmental conditions, can then be computed.
 
 The ground-state conformation is provided in the CURVES+
-definition (for the base and similar coordinates for phosphates) 
+definition (for the bases and similar coordinates for phosphates) 
 of the dsNA structural coordinates (both a
 non-dimensional version and the original unscaled version),
 and also as a PDB file of atomic coordinates. The PDB file
@@ -36,12 +36,12 @@ The current updated cgNA+web version is an interface to the enhanced coarse-grai
 
 cgNA+: A sequence-dependent coarse-grain model of double-stranded nucleic acids.
 R. Sharma, EPFL Thesis #9792, Under the supervision of J. H. Maddocks
-Download the PDF here.
+Download the PDF here https://lcvmwww.epfl.ch/publications/data/phd/18/PhD_thesis_final.pdf
 The extended cgNA+ parameter sets are built on the cgDNA+ model, which itself extends the original cgDNA model by the inclusion of an explicit description of phosphate groups. The cite for the cgDNA+ model itself is:
 
 A sequence-dependent coarse-grain model of B-DNA with explicit description of bases and phosphate groups parametrised from large scale Molecular Dynamics simulations.
 A. S. Patelli, EPFL Thesis #9522, Under the supervision of J. H. Maddocks
-Download the PDF here.
+Download the PDF here https://lcvmwww.epfl.ch/publications/data/phd/15/EPFL_TH9552.pdf
 More generally the cgDNA family of models has its own web page, which includes citations to all other related codes and articles.
 
 More information is available at
@@ -113,6 +113,4 @@ The python package is primarily developed by Rahul Sharma (rs25.iitr@gmail.com) 
 # cgNA_plus
 # Creating cgNA object
 # data = cgDNA(seq,ps) where seq is in A, T, C, G, M, N, H, K, U and ps is appropriate parameterset for that nucliec acid. 
-# For instanse, choose ps = "ps2_cgf" for the latest DNA parameter set
-# ps = "ps_rna" and "ps_hyb" for RNA and DNA:RNA hybrid
 
