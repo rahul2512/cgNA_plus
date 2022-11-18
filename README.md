@@ -1,9 +1,9 @@
-%README
-%-------------------------------------------------------
-% cgNA+ python (2022) --- developed at LCVMM, EPFL (https://lcvmwww.epfl.ch/)
-%-------------------------------------------------------    
-% Public version: last updated by Rahul Sharma (rs25.iitr@gmail.com, rahul.sharma@epfl.ch) on Nov 2022
-%-------------------------------------------------------
+README
+-------------------------------------------------------
+ cgNA+ python (2022) --- developed at LCVMM, EPFL (https://lcvmwww.epfl.ch/)
+-------------------------------------------------------    
+ Public version: last updated by Rahul Sharma (rs25.iitr@gmail.com, rahul.sharma@epfl.ch) on Nov 2022
+-------------------------------------------------------
 
 
 cgNA+ is a software (Matlab or Octave or Python) package for
