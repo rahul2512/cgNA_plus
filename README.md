@@ -117,6 +117,50 @@ l) ideal_bases.txt      : The text file with the ideal coordinates (in base fram
 This python package is originally developed by Rahul Sharma (rs25.iitr@gmail.com) with help from Alessandro patelli. 
 
 
+#---------------------------------------
+#Details on parameter sets
+#---------------------------------------
 
+[dna_ps1] DNA PS1 (cgDNA+ model)
+- Palindromic sequence library
+- 3 microseconds of Amber MD time series
+- bsc1 force field and SPC/E water model
+- 150mM of K+ counter-ions (Dang parameters)
+- Maximum entropy/likelihood truncation
+- Fitting functional: Kullback-Leibler divergence with model pdf in first argument.
+- Dinucleotide model with specific blocks for the dimers at the ends.
 
+[dna_ps2] DNA PS2 (cgNA+ model, recommended)
+- Palindromic sequence library
+- 10 microseconds of Amber MD time series
+- bsc1 force field, TIP3P water model
+- 150mM of K+ counter-ions (Joung and Cheatham parameters)
+- Maximum entropy/likelihood truncation
+- Fitting functional: Kullback-Leibler divergence with model pdf in first argument.
+- Dinucleotide model with specific blocks for the dimers at the ends.
+- Also, contains parameters for modified CpG steps
+- C is referred to as M and H when methylated and hydroxymethylated, respectively and
+- G is referred to as N and K when complementary C is methylated and hydroxymethylated, respectively
+- Note only CpG steps can be modified i.e. allowed steps are MN, MG, CN or HK, HG, CK 
+- hydroxymethylated and methylated steps are allowed in the same sequence but not adjacent
+
+[rna_ps2] RNA PS2 (cgNA+ model, recommended)
+- Palindromic sequence library
+- 10 microseconds of Amber MD time series
+- OL3 force field, TIP3P water model
+- 150mM of K+ counter-ions (Joung and Cheatham parameters)
+- Maximum entropy/likelihood truncation
+- Fitting functional: Kullback-Leibler divergence with model pdf in first argument.
+- Dinucleotide model with specific blocks for the dimers at the ends.
+- input accepts both U and T but then internally change T to U
+
+[drh_ps2] DNA:RNA Hybrid (DRH) PS2 (cgNA+ model, recommended)
+- Same sequence library but not palindromic
+- 10 microseconds of Amber MD time series
+- bsc1 and OL3 force field for DNA and RNA strand, respectively, TIP3P water model
+- 150mM of K+ counter-ions (Joung and Cheatham parameters)
+- Maximum entropy/likelihood truncation
+- Fitting functional: Kullback-Leibler divergence with model pdf in first argument.
+- Dinucleotide model with specific blocks for the dimers at the ends (only GC ends)
+- Only accepts sequence in A, T, C, G and must be with GC ends
 
