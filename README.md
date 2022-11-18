@@ -2,6 +2,9 @@
 #-------------------------------------------------------
 # cgNA+ python (2022) --- developed at LCVMM, EPFL (https://lcvmwww.epfl.ch/)
 #-------------------------------------------------------    
+# Public version: last updated by Rahul Sharma (rs25.iitr@gmail.com, rahul.sharma@epfl.ch) on Nov 2022
+#-------------------------------------------------------
+
 
 cgNA+ is a software (Matlab or Octave or Python) package for
 predicting the ground-state conformation and stiffness
@@ -18,6 +21,7 @@ can be used in the program 3DNA to obtain 3DNA structural
 coordinates if desired. The ground-state stiffness matrix
 is provided for non-dimensional version of the CURVES+ helical coordinates.
 
+#----------------------------------------------------------------------------
 A user-friendly web version of this program is available at cgDNAweb.epfl.ch
 
 If you use cgDNAweb.epfl.ch in relation to any publication please cite:
@@ -31,6 +35,7 @@ cgDNAweb: a web interface to the cgDNA sequence-dependent coarse-grain model of 
 L. De Bruin, J.H. Maddocks
 Nucleic Acids Research 46, issue W1 (2018), p. W5-W10
 DOI:10.1093/nar/gky351
+#----------------------------------------------------------------------------
 
 The current updated cgNA+web version is an interface to the enhanced coarse-grain model cgNA+ of sequence-dependent statistical mechanics of double-stranded nucleic acids. cgNA+ includes parameter sets for dsDNA in an epigenetic sequence alphabet, dsRNA, and DNA:RNA hybrid as described in detail in
 
@@ -47,12 +52,13 @@ More generally the cgDNA family of models has its own web page, which includes c
 More information is available at
 
 http://lcvmwww.epfl.ch/cgDNA
+#----------------------------------------------------------------------------
 
 
 %-------------------------------------------------------
 % For the impatient...
 %-------------------------------------------------------
-Run the input.py in Examples directory and also see the basic description of the functions in input.py. 
+Run the examples_i.py in Examples directory and also see the basic description of the functions in input.py. 
 For more details, please read the codes in functions directory. 
 
 %-------------------------------------------------------
@@ -97,9 +103,9 @@ k) nondim2cur.py        : This function transforms the ground-state coordinates 
 			  Curves+ form to the standard (dimensional) Curves+ form.
 
 l) ideal_bases.txt      : The text file with the ideal coordinates (in base frame) of the non-hydrogen 
-			  atoms of the four bases T, A, C, G.
+			  atoms of the bases T, A, C, G, U, M, N, H, K.
 
-2. Parametersets	: Four parametersets derived from different MD simulations sets.
+2. Parametersets	: Several parameter sets derived from different MD simulations sets and for variety of nucleic acids (see more details below)
 
 3. work   		: you can rename it to any directory and work but you must have input.py in this 
 			  directory to run cgDNA and the keyword "current_dir" should be assigned the name
@@ -108,9 +114,9 @@ l) ideal_bases.txt      : The text file with the ideal coordinates (in base fram
 			  example as a template for further use. 
 
 
-The python package is primarily developed by Rahul Sharma (rs25.iitr@gmail.com) with help from Alessandro patelli. 
+This python package is originally developed by Rahul Sharma (rs25.iitr@gmail.com) with help from Alessandro patelli. 
 
-# cgNA_plus
-# Creating cgNA object
-# data = cgDNA(seq,ps) where seq is in A, T, C, G, M, N, H, K, U and ps is appropriate parameterset for that nucliec acid. 
+
+
+
 
