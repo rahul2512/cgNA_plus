@@ -1,10 +1,11 @@
 README
 -------------------------------------------------------
  cgNA+ python (2022) --- developed at LCVMM, EPFL (https://lcvmwww.epfl.ch/)
--------------------------------------------------------    
- Public version: last updated by Rahul Sharma (rs25.iitr@gmail.com, rahul.sharma@epfl.ch) on Nov 2022
+-------------------------------------------------------  
+cgNA+ model is the evolution of the cgDNA family of models developed in the LCVMM lab (Prof. John H. Maddocks) at EPFL.
+This python package is originally developed by Rahul Sharma (rs25.iitr@gmail.com) with contribution from Alessandro patelli.
+Public version: last updated by Rahul Sharma (rs25.iitr@gmail.com, rahul.sharma@epfl.ch) on Nov 2022
 -------------------------------------------------------
-
 
 cgNA+ is a software (Matlab or Octave or Python) package for
 predicting the ground-state conformation and stiffness
@@ -113,8 +114,6 @@ l) ideal_bases.txt      : The text file with the ideal coordinates (in base fram
 4. Examples		: This file contains two sample sequences and all the outputs. One can use this 
 			  example as a template for further use. 
 
-
-This python package is originally developed by Rahul Sharma (rs25.iitr@gmail.com) with help from Alessandro patelli. 
 
 
 #---------------------------------------
