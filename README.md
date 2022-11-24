@@ -2,9 +2,12 @@ README
 -------------------------------------------------------
  cgNA+ python (2022) --- developed at LCVMM, EPFL (https://lcvmwww.epfl.ch/)
 -------------------------------------------------------  
+
 cgNA+ model is the evolution of the cgDNA family of models developed in the LCVMM lab (Prof. John H. Maddocks) at EPFL.
 This python package is originally developed by Rahul Sharma (rs25.iitr@gmail.com) with contribution from Alessandro patelli.
 Public version: last updated by Rahul Sharma (rs25.iitr@gmail.com, rahul.sharma@epfl.ch) on Nov 2022
+The Matlab version is avaiable at https://github.com/rahul2512/cgNA_plus_Matlab. 
+
 -------------------------------------------------------
 
 cgNA+ is a software (Matlab or Octave or Python) package for
