@@ -166,3 +166,5 @@ l) ideal_bases.txt      : The text file with the ideal coordinates (in base fram
 - Dinucleotide model with specific blocks for the dimers at the ends (only GC ends)
 - Only accepts sequence in A, T, C, G and must be with GC ends
 
+
+
