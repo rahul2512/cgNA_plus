@@ -1,0 +1,6 @@
+README.md
+pyproject.toml
+cgNA_plus.egg-info/PKG-INFO
+cgNA_plus.egg-info/SOURCES.txt
+cgNA_plus.egg-info/dependency_links.txt
+cgNA_plus.egg-info/top_level.txt

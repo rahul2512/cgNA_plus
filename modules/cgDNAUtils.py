@@ -16,13 +16,12 @@ from brokenaxes import brokenaxes
 from E_transform import Etrans
 import matplotlib.colors as mcolors
 
-
 plt.rcParams["axes.edgecolor"] = "0.15"
 plt.rcParams["axes.linewidth"]  = 0.5
 plt.rcParams['axes.facecolor'] = 'white'
 
 def constructSeqParms(sequence,ps_name):
-
+	
     ps = scipy.io.loadmat('../Parametersets/' + ps_name)
 
 	#### Following loop take every input sequence and construct shape and stiff matrix ###
