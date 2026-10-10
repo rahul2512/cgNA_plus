@@ -58,6 +58,14 @@ More information is available at
 http://lcvmwww.epfl.ch/cgDNA
 #----------------------------------------------------------------------------
 
+%-------------------------------------------------------
+% One can directly use the code 
+#### package installation
+- gh repo clone rahul2512/cgNA_plus
+- cd rahul2512/cgNA_plus
+- python -m pip install -e .
+%-------------------------------------------------------
+
 
 %-------------------------------------------------------
 % For the impatient...
@@ -165,6 +173,8 @@ l) ideal_bases.txt      : The text file with the ideal coordinates (in base fram
 - Fitting functional: Kullback-Leibler divergence with model pdf in first argument.
 - Dinucleotide model with specific blocks for the dimers at the ends (only GC ends)
 - Only accepts sequence in A, T, C, G and must be with GC ends
+
+
 
 
 

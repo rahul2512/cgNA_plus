@@ -1,7 +1,9 @@
 import sys, random
 import numpy as np
 import pandas as pd
-import RotationUtils as Rot
+from . import RotationUtils as Rot
+from .E_transform import Etrans
+
 import scipy, scipy.io
 from scipy.linalg import sqrtm
 from scipy.linalg import norm
@@ -13,8 +15,26 @@ import scipy.io as sio
 path = os.getcwd()
 import matplotlib.pyplot as plt
 from brokenaxes import brokenaxes
-from E_transform import Etrans
 import matplotlib.colors as mcolors
+
+
+from importlib.resources import files
+import scipy.io
+
+def load_parameters(ps_name):
+    resource = files("cgNA_plus").joinpath("Parametersets", ps_name)
+
+    if not resource.is_file():
+        raise FileNotFoundError(
+            f"Parameter set not found: {ps_name}"
+        )
+
+    with resource.open("rb") as f:
+        return scipy.io.loadmat(f)
+
+
+
+
 
 plt.rcParams["axes.edgecolor"] = "0.15"
 plt.rcParams["axes.linewidth"]  = 0.5
@@ -22,7 +42,7 @@ plt.rcParams['axes.facecolor'] = 'white'
 
 def constructSeqParms(sequence,ps_name):
 	
-    ps = scipy.io.loadmat('../Parametersets/' + ps_name)
+    ps = load_parameters(ps_name)    #scipy.io.loadmat('../Parametersets/' + ps_name)
 
 	#### Following loop take every input sequence and construct shape and stiff matrix ###
     s_seq = seq_edit(sequence)

@@ -1,13 +1,17 @@
 import sys
-sys.path.append('./modules')
-import cgDNAUtils as tools
+#sys.path.append('./modules')
+#import cgDNAUtils as tools
+#from dsDNAclass import dsDNA
+
+from ..modules import cgDNAUtils as tools
+from .dsDNAclass import dsDNA
+
 import matplotlib.pyplot as plt
 import numpy as np
 import scipy as sci
 import time
 from numpy import matlib as mb
 
-from dsDNAclass import dsDNA
 ang = "Å"
 
 class cgDNA:

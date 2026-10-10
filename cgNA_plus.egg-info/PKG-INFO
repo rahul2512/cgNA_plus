@@ -1,5 +1,9 @@
 Metadata-Version: 2.4
 Name: cgNA-plus
 Version: 0.1.0
-Summary: Python tools for cgNA+ nucleic acid modelling
 Requires-Python: >=3.10
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: brokenaxes

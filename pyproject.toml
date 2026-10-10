@@ -1,13 +1,29 @@
 [build-system]
-requires = ["setuptools>=77", "wheel"]
+requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "cgNA-plus"
 version = "0.1.0"
-description = "Python tools for cgNA+ nucleic acid modelling"
 requires-python = ">=3.10"
+dependencies = [
+    "brokenaxes>=0.6.2",
+    "logomaker>=0.8.7",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.3",
+    "pandas>=3.0.6",
+    "scipy>=1.18.1",
+    "seaborn>=0.13.2",
+    "tqdm>=4.70.1"
+]
 
-[tool.setuptools.packages.find]
-where = ["."]
-include = ["cgNA_plus*"]
+[tool.setuptools]
+packages = [
+    "cgNA_plus",
+    "cgNA_plus.classes",
+    "cgNA_plus.modules"
+]
+package-dir = {"cgNA_plus" = "."}
+
+[tool.setuptools.package-data]
+cgNA_plus = ["Parametersets/*.mat"]
