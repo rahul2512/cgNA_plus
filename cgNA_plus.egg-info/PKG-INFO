@@ -2,8 +2,11 @@ Metadata-Version: 2.4
 Name: cgNA-plus
 Version: 0.1.0
 Requires-Python: >=3.10
-Requires-Dist: numpy
-Requires-Dist: scipy
-Requires-Dist: pandas
-Requires-Dist: matplotlib
-Requires-Dist: brokenaxes
+Requires-Dist: brokenaxes>=0.6.2
+Requires-Dist: logomaker>=0.8.7
+Requires-Dist: matplotlib>=3.11.2
+Requires-Dist: numpy>=2.5.3
+Requires-Dist: pandas>=3.0.6
+Requires-Dist: scipy>=1.18.1
+Requires-Dist: seaborn>=0.13.2
+Requires-Dist: tqdm>=4.70.1
