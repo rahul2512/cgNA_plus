@@ -59,11 +59,35 @@ http://lcvmwww.epfl.ch/cgDNA
 #----------------------------------------------------------------------------
 
 %-------------------------------------------------------
-% One can directly use the code 
-#### package installation
-- gh repo clone rahul2512/cgNA_plus
-- cd rahul2512/cgNA_plus
-- python -m pip install -e .
+## Installation
+
+The `cgNA_plus` package can be installed locally from the GitHub repository using the following steps.
+
+### 1. Clone the repository
+
+```bash
+gh repo clone rahul2512/cgNA_plus
+cd cgNA_plus
+```
+
+### 2. Install the package
+
+```bash
+python -m pip install -e .
+```
+
+This installs `cgNA_plus` and its required dependencies in editable mode. Changes to the local source code are automatically reflected without requiring reinstallation.
+
+### 3. Import the package
+
+Once installed, `cgNA_plus` can be imported from any working directory within the same Python environment.
+
+```python
+from cgNA_plus.classes.cgDNAclass import cgDNA
+import cgNA_plus.modules.cgDNAUtils as tools
+```
+
+**Note:** The `-e` option enables editable installation and is recommended for development. For a standard installation, omit `-e`.
 %-------------------------------------------------------
 
 
